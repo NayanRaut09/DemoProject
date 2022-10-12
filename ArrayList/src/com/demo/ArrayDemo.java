@@ -11,8 +11,9 @@ public class ArrayDemo {
 		
 		List<String> list =Arrays.asList("Nayan","Rohan","Sayali","Rohit");
 		 
-		System.out.println(list);
-		
+     for(String l: list) {
+    	 System.out.println(l);
+     }
 		
 	}
 
